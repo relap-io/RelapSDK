@@ -1,5 +1,5 @@
-# RelapSDK
-Relap.io SDK for iOS v 0.0.1
+# Relap iOS SDK
+Relap.io iOS SDK 0.0.1
 
 Первым делом вам необходимо произвести инициализацию:
 
