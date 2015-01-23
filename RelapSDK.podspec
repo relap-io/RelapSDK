@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = "RelapSDK"
-	s.version = "0.0.4"
+	s.version = "0.0.5"
 	s.summary = "Relap.io SDK"
 	s.homepage = "https://github.com/relap-io/relap-ios-sdk"
 	s.license = { :type => 'MIT', :file => 'LICENSE' }
