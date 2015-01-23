@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB650D5E1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D5D1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m */; };
+		FB650D651A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D641A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m */; };
+		FB650D681A7137B400DEDE32 /* RelapSDKExampleArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D671A7137B400DEDE32 /* RelapSDKExampleArticleCell.m */; };
+		FB650D6B1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D6A1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m */; };
+		FB650D6E1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D6D1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m */; };
+		FB650D7C1A713C7B00DEDE32 /* RelapSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D711A713C7B00DEDE32 /* RelapSDK.m */; };
+		FB650D7D1A713C7B00DEDE32 /* RelapSDKContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D731A713C7B00DEDE32 /* RelapSDKContentItem.m */; };
+		FB650D7E1A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D751A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.m */; };
+		FB650D7F1A713C7B00DEDE32 /* RelapSDKRelativeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D771A713C7B00DEDE32 /* RelapSDKRelativeContentView.m */; };
+		FB650D801A713C7B00DEDE32 /* RelapSDKRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D791A713C7B00DEDE32 /* RelapSDKRequestOperation.m */; };
+		FB650D841A714C8300DEDE32 /* RelapSDKExampleArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650D831A714C8300DEDE32 /* RelapSDKExampleArticleView.m */; };
+		FB650DEF1A725ACD00DEDE32 /* RelapSDKNoPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB650DEE1A725ACD00DEDE32 /* RelapSDKNoPhoto@2x.png */; };
+		FB650DF21A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650DF11A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m */; };
+		FBE27C2A1A701B3200C20E91 /* RelapSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C291A701B3200C20E91 /* RelapSDKTests.m */; };
+		FBE27C3B1A701BC900C20E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C351A701BC900C20E91 /* AppDelegate.m */; };
+		FBE27C3C1A701BC900C20E91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE27C361A701BC900C20E91 /* LaunchScreen.xib */; };
+		FBE27C3D1A701BC900C20E91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE27C381A701BC900C20E91 /* Images.xcassets */; };
+		FBE27C3E1A701BC900C20E91 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE27C391A701BC900C20E91 /* Info.plist */; };
+		FBE27C3F1A701BC900C20E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C3A1A701BC900C20E91 /* main.m */; };
+		FBE27C421A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C411A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m */; };
+		FBE27C451A701F1E00C20E91 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C441A701F1E00C20E91 /* XMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE27C241A701B3200C20E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE27C021A701B3200C20E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE27C091A701B3200C20E91;
+			remoteInfo = RelapSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB650D5C1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleArticlePreviewCell.h; sourceTree = "<group>"; };
+		FB650D5D1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleArticlePreviewCell.m; sourceTree = "<group>"; };
+		FB650D631A7136A000DEDE32 /* RelapSDKExampleArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleArticleViewController.h; sourceTree = "<group>"; };
+		FB650D641A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleArticleViewController.m; sourceTree = "<group>"; };
+		FB650D661A7137B400DEDE32 /* RelapSDKExampleArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleArticleCell.h; sourceTree = "<group>"; };
+		FB650D671A7137B400DEDE32 /* RelapSDKExampleArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleArticleCell.m; sourceTree = "<group>"; };
+		FB650D691A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleImageLoadingOperationQueue.h; sourceTree = "<group>"; };
+		FB650D6A1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleImageLoadingOperationQueue.m; sourceTree = "<group>"; };
+		FB650D6C1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleRelativeContentCell.h; sourceTree = "<group>"; };
+		FB650D6D1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleRelativeContentCell.m; sourceTree = "<group>"; };
+		FB650D701A713C7B00DEDE32 /* RelapSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDK.h; sourceTree = "<group>"; };
+		FB650D711A713C7B00DEDE32 /* RelapSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDK.m; sourceTree = "<group>"; };
+		FB650D721A713C7B00DEDE32 /* RelapSDKContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKContentItem.h; sourceTree = "<group>"; };
+		FB650D731A713C7B00DEDE32 /* RelapSDKContentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKContentItem.m; sourceTree = "<group>"; };
+		FB650D741A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKRelativeContentItemView.h; sourceTree = "<group>"; };
+		FB650D751A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKRelativeContentItemView.m; sourceTree = "<group>"; };
+		FB650D761A713C7B00DEDE32 /* RelapSDKRelativeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKRelativeContentView.h; sourceTree = "<group>"; };
+		FB650D771A713C7B00DEDE32 /* RelapSDKRelativeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKRelativeContentView.m; sourceTree = "<group>"; };
+		FB650D781A713C7B00DEDE32 /* RelapSDKRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKRequestOperation.h; sourceTree = "<group>"; };
+		FB650D791A713C7B00DEDE32 /* RelapSDKRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKRequestOperation.m; sourceTree = "<group>"; };
+		FB650D821A714C8300DEDE32 /* RelapSDKExampleArticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleArticleView.h; sourceTree = "<group>"; };
+		FB650D831A714C8300DEDE32 /* RelapSDKExampleArticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleArticleView.m; sourceTree = "<group>"; };
+		FB650DEE1A725ACD00DEDE32 /* RelapSDKNoPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RelapSDKNoPhoto@2x.png"; sourceTree = "<group>"; };
+		FB650DF01A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleSelectStyleViewController.h; sourceTree = "<group>"; };
+		FB650DF11A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleSelectStyleViewController.m; sourceTree = "<group>"; };
+		FBE27C0A1A701B3200C20E91 /* RelapSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelapSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE27C231A701B3200C20E91 /* RelapSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelapSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE27C281A701B3200C20E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE27C291A701B3200C20E91 /* RelapSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelapSDKTests.m; sourceTree = "<group>"; };
+		FBE27C341A701BC900C20E91 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBE27C351A701BC900C20E91 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBE27C371A701BC900C20E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBE27C381A701BC900C20E91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBE27C391A701BC900C20E91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE27C3A1A701BC900C20E91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBE27C401A701BE300C20E91 /* RelapSDKExampleArticleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleArticleListViewController.h; sourceTree = "<group>"; };
+		FBE27C411A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleArticleListViewController.m; sourceTree = "<group>"; };
+		FBE27C431A701F1D00C20E91 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		FBE27C441A701F1E00C20E91 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE27C071A701B3200C20E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE27C201A701B3200C20E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB650D6F1A713C7B00DEDE32 /* Relap SDK Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB650DED1A725ACD00DEDE32 /* Resources */,
+				FB650D701A713C7B00DEDE32 /* RelapSDK.h */,
+				FB650D711A713C7B00DEDE32 /* RelapSDK.m */,
+				FB650D721A713C7B00DEDE32 /* RelapSDKContentItem.h */,
+				FB650D731A713C7B00DEDE32 /* RelapSDKContentItem.m */,
+				FB650D741A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.h */,
+				FB650D751A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.m */,
+				FB650D761A713C7B00DEDE32 /* RelapSDKRelativeContentView.h */,
+				FB650D771A713C7B00DEDE32 /* RelapSDKRelativeContentView.m */,
+				FB650D781A713C7B00DEDE32 /* RelapSDKRequestOperation.h */,
+				FB650D791A713C7B00DEDE32 /* RelapSDKRequestOperation.m */,
+			);
+			path = "Relap SDK Classes";
+			sourceTree = "<group>";
+		};
+		FB650DED1A725ACD00DEDE32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB650DEE1A725ACD00DEDE32 /* RelapSDKNoPhoto@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBE27C011A701B3200C20E91 = {
+			isa = PBXGroup;
+			children = (
+				FB650D6F1A713C7B00DEDE32 /* Relap SDK Classes */,
+				FBE27C331A701BC900C20E91 /* RelapSDKExampleProject */,
+				FBE27C261A701B3200C20E91 /* RelapSDKTests */,
+				FBE27C0B1A701B3200C20E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE27C0B1A701B3200C20E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE27C0A1A701B3200C20E91 /* RelapSDK.app */,
+				FBE27C231A701B3200C20E91 /* RelapSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE27C261A701B3200C20E91 /* RelapSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE27C291A701B3200C20E91 /* RelapSDKTests.m */,
+				FBE27C271A701B3200C20E91 /* Supporting Files */,
+			);
+			path = RelapSDKTests;
+			sourceTree = "<group>";
+		};
+		FBE27C271A701B3200C20E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE27C281A701B3200C20E91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBE27C331A701BC900C20E91 /* RelapSDKExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				FB650DF01A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.h */,
+				FB650DF11A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m */,
+				FBE27C401A701BE300C20E91 /* RelapSDKExampleArticleListViewController.h */,
+				FBE27C411A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m */,
+				FB650D5C1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.h */,
+				FB650D5D1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m */,
+				FB650D631A7136A000DEDE32 /* RelapSDKExampleArticleViewController.h */,
+				FB650D641A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m */,
+				FB650D661A7137B400DEDE32 /* RelapSDKExampleArticleCell.h */,
+				FB650D671A7137B400DEDE32 /* RelapSDKExampleArticleCell.m */,
+				FB650D691A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.h */,
+				FB650D6A1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m */,
+				FB650D6C1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.h */,
+				FB650D6D1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m */,
+				FB650D821A714C8300DEDE32 /* RelapSDKExampleArticleView.h */,
+				FB650D831A714C8300DEDE32 /* RelapSDKExampleArticleView.m */,
+				FBE27C431A701F1D00C20E91 /* XMLDictionary.h */,
+				FBE27C441A701F1E00C20E91 /* XMLDictionary.m */,
+				FBE27C341A701BC900C20E91 /* AppDelegate.h */,
+				FBE27C351A701BC900C20E91 /* AppDelegate.m */,
+				FBE27C361A701BC900C20E91 /* LaunchScreen.xib */,
+				FBE27C381A701BC900C20E91 /* Images.xcassets */,
+				FBE27C391A701BC900C20E91 /* Info.plist */,
+				FBE27C3A1A701BC900C20E91 /* main.m */,
+			);
+			path = RelapSDKExampleProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE27C091A701B3200C20E91 /* RelapSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE27C2D1A701B3200C20E91 /* Build configuration list for PBXNativeTarget "RelapSDK" */;
+			buildPhases = (
+				FBE27C061A701B3200C20E91 /* Sources */,
+				FBE27C071A701B3200C20E91 /* Frameworks */,
+				FBE27C081A701B3200C20E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelapSDK;
+			productName = RelapSDK;
+			productReference = FBE27C0A1A701B3200C20E91 /* RelapSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE27C221A701B3200C20E91 /* RelapSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE27C301A701B3200C20E91 /* Build configuration list for PBXNativeTarget "RelapSDKTests" */;
+			buildPhases = (
+				FBE27C1F1A701B3200C20E91 /* Sources */,
+				FBE27C201A701B3200C20E91 /* Frameworks */,
+				FBE27C211A701B3200C20E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE27C251A701B3200C20E91 /* PBXTargetDependency */,
+			);
+			name = RelapSDKTests;
+			productName = RelapSDKTests;
+			productReference = FBE27C231A701B3200C20E91 /* RelapSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE27C021A701B3200C20E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Igor Kamenev";
+				TargetAttributes = {
+					FBE27C091A701B3200C20E91 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FBE27C221A701B3200C20E91 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FBE27C091A701B3200C20E91;
+					};
+				};
+			};
+			buildConfigurationList = FBE27C051A701B3200C20E91 /* Build configuration list for PBXProject "RelapSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE27C011A701B3200C20E91;
+			productRefGroup = FBE27C0B1A701B3200C20E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE27C091A701B3200C20E91 /* RelapSDK */,
+				FBE27C221A701B3200C20E91 /* RelapSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE27C081A701B3200C20E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB650DEF1A725ACD00DEDE32 /* RelapSDKNoPhoto@2x.png in Resources */,
+				FBE27C3D1A701BC900C20E91 /* Images.xcassets in Resources */,
+				FBE27C3C1A701BC900C20E91 /* LaunchScreen.xib in Resources */,
+				FBE27C3E1A701BC900C20E91 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE27C211A701B3200C20E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE27C061A701B3200C20E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB650D7D1A713C7B00DEDE32 /* RelapSDKContentItem.m in Sources */,
+				FB650D7E1A713C7B00DEDE32 /* RelapSDKRelativeContentItemView.m in Sources */,
+				FB650D841A714C8300DEDE32 /* RelapSDKExampleArticleView.m in Sources */,
+				FBE27C421A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m in Sources */,
+				FB650D5E1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m in Sources */,
+				FB650D7F1A713C7B00DEDE32 /* RelapSDKRelativeContentView.m in Sources */,
+				FB650D6E1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m in Sources */,
+				FB650DF21A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m in Sources */,
+				FB650D7C1A713C7B00DEDE32 /* RelapSDK.m in Sources */,
+				FB650D681A7137B400DEDE32 /* RelapSDKExampleArticleCell.m in Sources */,
+				FB650D651A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m in Sources */,
+				FBE27C451A701F1E00C20E91 /* XMLDictionary.m in Sources */,
+				FBE27C3F1A701BC900C20E91 /* main.m in Sources */,
+				FB650D801A713C7B00DEDE32 /* RelapSDKRequestOperation.m in Sources */,
+				FBE27C3B1A701BC900C20E91 /* AppDelegate.m in Sources */,
+				FB650D6B1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE27C1F1A701B3200C20E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE27C2A1A701B3200C20E91 /* RelapSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE27C251A701B3200C20E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE27C091A701B3200C20E91 /* RelapSDK */;
+			targetProxy = FBE27C241A701B3200C20E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE27C361A701BC900C20E91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE27C371A701BC900C20E91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE27C2B1A701B3200C20E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBE27C2C1A701B3200C20E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE27C2E1A701B3200C20E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RelapSDKExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBE27C2F1A701B3200C20E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RelapSDKExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBE27C311A701B3200C20E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RelapSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelapSDK.app/RelapSDK";
+			};
+			name = Debug;
+		};
+		FBE27C321A701B3200C20E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RelapSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelapSDK.app/RelapSDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE27C051A701B3200C20E91 /* Build configuration list for PBXProject "RelapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE27C2B1A701B3200C20E91 /* Debug */,
+				FBE27C2C1A701B3200C20E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE27C2D1A701B3200C20E91 /* Build configuration list for PBXNativeTarget "RelapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE27C2E1A701B3200C20E91 /* Debug */,
+				FBE27C2F1A701B3200C20E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE27C301A701B3200C20E91 /* Build configuration list for PBXNativeTarget "RelapSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE27C311A701B3200C20E91 /* Debug */,
+				FBE27C321A701B3200C20E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE27C021A701B3200C20E91 /* Project object */;
+}
