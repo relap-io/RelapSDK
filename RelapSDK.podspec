@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
 	s.author = { "Username" => "igorkamenev@yandex.ru" }
 	s.platform = :ios, 7.0
     s.source = { :git => "https://github.com/relap-io/relap-ios-sdk.git", :tag => s.version.to_s }	
-	s.public_header_files = 'RelapSDKClasses/*.h'
-	s.source_files = 'RelapSDKClasses/*.{m.h}'
+	s.public_header_files = 'Relap SDK Classes/*.h'
+	s.source_files = 'Relap SDK Classes/*.{h,m}'
 	s.framework = 'Foundation'
 	s.requires_arc = true
 end
