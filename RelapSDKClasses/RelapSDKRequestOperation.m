@@ -140,7 +140,7 @@ typedef enum {
 
         if (self.failureBlock) {
 
-            NSString* responseCode = [NSString stringWithFormat:@"Response code is: %ld", response.statusCode];
+            NSString* responseCode = [NSString stringWithFormat:@"Response code is: %ld", (long) response.statusCode];
             
             NSError* error = [NSError errorWithDomain:@"RelapSDK" code:1 userInfo:@{NSLocalizedDescriptionKey: responseCode}];
             self.failureBlock(self, error);
