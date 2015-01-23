@@ -8,7 +8,7 @@
 
 #import "RelapSDK.h"
 
-static NSString* const kRelapAPIURL = @"http://10.211.55.4/api.php";
+static NSString* const kRelapAPIURL = @"http://relap.ratcat.ru/api.php";
 
 static RelapSDK* _relapSDK;
 
@@ -308,6 +308,8 @@ static RelapSDK* _relapSDK;
         
         return;
     }
+    
+    NSLog(@"%@", request);
     
     RelapSDKRequestOperation* op = [[RelapSDKRequestOperation alloc] initWithRequest:request];
     if (successBlock) {

@@ -42,7 +42,4 @@ typedef enum {
 
 @protocol RelapSDKRelativeContentViewDelegate <NSObject>
 
-@optional
--(void) relapSDKR
-
 @end
