@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.license = { :type => 'MIT', :file => 'LICENSE' }
 	s.author = { "Username" => "igorkamenev@yandex.ru" }
 	s.platform = :ios, 7.0
-	s.source = { :git => "https://github.com/relap-io/relap-ios-sdk.git", :tag => s.version.to_s }
+    s.source = { :git => "https://github.com/relap-io/relap-ios-sdk.git", :tag => s.version.to_s }	
 	s.framework = 'Foundation'
 	s.requires_arc = true
 	s.default_subspec = 'Core'
