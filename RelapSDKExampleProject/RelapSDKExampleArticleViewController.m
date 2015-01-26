@@ -12,7 +12,11 @@
 #import "RelapSDK.h"
 #import "RelapSDKExampleImageLoadingOperationQueue.h"
 
-@interface RelapSDKExampleArticleViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface RelapSDKExampleArticleViewController () <
+    UITableViewDataSource,
+    UITableViewDelegate,
+    RelapSDKRelativeContentViewDelegate
+>
 
 @property (nonatomic, strong) NSDictionary* dict;
 @property (nonatomic, strong) UITableView* tableView;
@@ -20,7 +24,7 @@
 @property (nonatomic, strong) RelapSDKRelativeContentView* relativeContentView;
 @property (nonatomic, strong) RelapSDKExampleArticleView* articleView;
 
-@property (nonatomic, strong) RelapSDKContentItem* contentItem;
+@property (nonatomic, strong) RelapSDKRelativeContentItem* contentItem;
 
 @end
 
@@ -37,7 +41,7 @@ static NSString* const kRelativeContentCellIdentifier = @"kRelativeContentCellId
         self.dict = dict;
     }
     
-    self.contentItem = [[RelapSDKContentItem alloc] init];
+    self.contentItem = [[RelapSDKRelativeContentItem alloc] init];
     self.contentItem.contentID = dict[@"guid"];
     self.contentItem.title = dict[@"title"];
     self.contentItem.text = dict[@"description"];
@@ -67,6 +71,7 @@ static NSString* const kRelativeContentCellIdentifier = @"kRelativeContentCellId
     [RelapSDK getRelativeContentViewForContentID:self.contentItem.contentID viewStyle:[self style] successBlock:^(RelapSDKRelativeContentView *relativeContentView) {
         
         self.relativeContentView = relativeContentView;
+        self.relativeContentView.delegate = self;
         [self.tableView reloadData];
         
     } failureBlock:nil];
@@ -182,6 +187,27 @@ static NSString* const kRelativeContentCellIdentifier = @"kRelativeContentCellId
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+#pragma mark RelapSDKRelativeContentViewDelegate
+
+-(void)relativeContentView:(RelapSDKRelativeContentView *)relativeContentView didSelectRelativeContentItem:(RelapSDKRelativeContentItem *)contentItem
+{
+    
+    NSDictionary* dict = @{
+                                    @"guid": contentItem.contentID,
+                                    @"title": contentItem.title,
+                                    @"description": contentItem.text,
+                                    @"enclosure": @{
+                                        @"_url":contentItem.imageURL,
+                                        @"_type":@"image/jpeg",
+                                    },
+                                  };
+
+    RelapSDKExampleArticleViewController* vc = [[RelapSDKExampleArticleViewController alloc] initWithDict:dict];
+    vc.styleTag = self.styleTag;
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 @end
