@@ -20,6 +20,9 @@
 		FB650E4A1A72FBC200DEDE32 /* RelapSDKRelativeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650E421A72FBC200DEDE32 /* RelapSDKRelativeContentView.m */; };
 		FB650E4B1A72FBC200DEDE32 /* RelapSDKRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB650E441A72FBC200DEDE32 /* RelapSDKRequestOperation.m */; };
 		FB650E4C1A72FBC200DEDE32 /* RelapSDKNoPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB650E461A72FBC200DEDE32 /* RelapSDKNoPhoto@2x.png */; };
+		FB70C3901A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70C38F1A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.m */; };
+		FB70C3931A77EB5600483B44 /* RelapSDKExampleCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70C3921A77EB5600483B44 /* RelapSDKExampleCustomView.m */; };
+		FB70C3961A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70C3951A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.m */; };
 		FBE27C2A1A701B3200C20E91 /* RelapSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C291A701B3200C20E91 /* RelapSDKTests.m */; };
 		FBE27C3B1A701BC900C20E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE27C351A701BC900C20E91 /* AppDelegate.m */; };
 		FBE27C3C1A701BC900C20E91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE27C361A701BC900C20E91 /* LaunchScreen.xib */; };
@@ -66,6 +69,12 @@
 		FB650E431A72FBC200DEDE32 /* RelapSDKRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKRequestOperation.h; sourceTree = "<group>"; };
 		FB650E441A72FBC200DEDE32 /* RelapSDKRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKRequestOperation.m; sourceTree = "<group>"; };
 		FB650E461A72FBC200DEDE32 /* RelapSDKNoPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RelapSDKNoPhoto@2x.png"; sourceTree = "<group>"; };
+		FB70C38E1A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleCustomViewArticleViewController.h; sourceTree = "<group>"; };
+		FB70C38F1A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleCustomViewArticleViewController.m; sourceTree = "<group>"; };
+		FB70C3911A77EB5600483B44 /* RelapSDKExampleCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleCustomView.h; sourceTree = "<group>"; };
+		FB70C3921A77EB5600483B44 /* RelapSDKExampleCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleCustomView.m; sourceTree = "<group>"; };
+		FB70C3941A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelapSDKExampleCustomViewCell.h; sourceTree = "<group>"; };
+		FB70C3951A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelapSDKExampleCustomViewCell.m; sourceTree = "<group>"; };
 		FBE27C0A1A701B3200C20E91 /* RelapSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelapSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE27C231A701B3200C20E91 /* RelapSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelapSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE27C281A701B3200C20E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,6 +199,12 @@
 				FBE27C381A701BC900C20E91 /* Images.xcassets */,
 				FBE27C391A701BC900C20E91 /* Info.plist */,
 				FBE27C3A1A701BC900C20E91 /* main.m */,
+				FB70C38E1A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.h */,
+				FB70C38F1A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.m */,
+				FB70C3911A77EB5600483B44 /* RelapSDKExampleCustomView.h */,
+				FB70C3921A77EB5600483B44 /* RelapSDKExampleCustomView.m */,
+				FB70C3941A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.h */,
+				FB70C3951A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.m */,
 			);
 			path = RelapSDKExampleProject;
 			sourceTree = "<group>";
@@ -299,17 +314,20 @@
 				FB650E491A72FBC200DEDE32 /* RelapSDKRelativeContentItemView.m in Sources */,
 				FBE27C421A701BE300C20E91 /* RelapSDKExampleArticleListViewController.m in Sources */,
 				FB650D5E1A711B5000DEDE32 /* RelapSDKExampleArticlePreviewCell.m in Sources */,
+				FB70C3961A77EDAA00483B44 /* RelapSDKExampleCustomViewCell.m in Sources */,
 				FB650D6E1A713BFD00DEDE32 /* RelapSDKExampleRelativeContentCell.m in Sources */,
 				FB650E4B1A72FBC200DEDE32 /* RelapSDKRequestOperation.m in Sources */,
 				FB650DF21A725E2700DEDE32 /* RelapSDKExampleSelectStyleViewController.m in Sources */,
 				FB650E481A72FBC200DEDE32 /* RelapSDKRelativeContentItem.m in Sources */,
 				FB650E4A1A72FBC200DEDE32 /* RelapSDKRelativeContentView.m in Sources */,
 				FB650D681A7137B400DEDE32 /* RelapSDKExampleArticleCell.m in Sources */,
+				FB70C3901A77E5C600483B44 /* RelapSDKExampleCustomViewArticleViewController.m in Sources */,
 				FB650D651A7136A000DEDE32 /* RelapSDKExampleArticleViewController.m in Sources */,
 				FBE27C451A701F1E00C20E91 /* XMLDictionary.m in Sources */,
 				FBE27C3F1A701BC900C20E91 /* main.m in Sources */,
 				FBE27C3B1A701BC900C20E91 /* AppDelegate.m in Sources */,
 				FB650D6B1A7139B300DEDE32 /* RelapSDKExampleImageLoadingOperationQueue.m in Sources */,
+				FB70C3931A77EB5600483B44 /* RelapSDKExampleCustomView.m in Sources */,
 				FB650E471A72FBC200DEDE32 /* RelapSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

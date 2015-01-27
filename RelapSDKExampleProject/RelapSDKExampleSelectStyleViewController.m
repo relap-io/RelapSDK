@@ -27,6 +27,7 @@
                         @"Horizontal alignment vertical item",
                         @"Vertical alignment horizontal item",
                         @"Vertical alignment vertical item",
+                        @"Custom view",
                         ];
     
     CGFloat y = 100.0;

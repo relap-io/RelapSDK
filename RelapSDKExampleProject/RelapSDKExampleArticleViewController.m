@@ -40,14 +40,14 @@ static NSString* const kRelativeContentCellIdentifier = @"kRelativeContentCellId
     if (self) {
         self.dict = dict;
     }
+
+    [RelapSDK setupWithApplicationID:@"RelapSDKExampleProject" userID:@"1"];
     
     self.contentItem = [[RelapSDKRelativeContentItem alloc] init];
     self.contentItem.contentID = dict[@"guid"];
     self.contentItem.title = dict[@"title"];
     self.contentItem.text = dict[@"description"];
     self.contentItem.imageURL = dict[@"enclosure"][@"_url"];
-    
-    [RelapSDK markContentSeen:self.contentItem];
     
     return self;
 }
@@ -68,7 +68,9 @@ static NSString* const kRelativeContentCellIdentifier = @"kRelativeContentCellId
     
     [self.view addSubview:self.tableView];
 
-    [RelapSDK getRelativeContentViewForContentID:self.contentItem.contentID viewStyle:[self style] successBlock:^(RelapSDKRelativeContentView *relativeContentView) {
+    [RelapSDK markContentSeen:self.contentItem];
+    
+    [RelapSDK loadRelativeContentViewForContentID:self.contentItem.contentID viewStyle:[self style] successBlock:^(RelapSDKRelativeContentView *relativeContentView) {
         
         self.relativeContentView = relativeContentView;
         self.relativeContentView.delegate = self;

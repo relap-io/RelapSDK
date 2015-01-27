@@ -10,6 +10,7 @@
 #import "XMLDictionary.h"
 #import "RelapSDKExampleArticlePreviewCell.h"
 #import "RelapSDKExampleArticleViewController.h"
+#import "RelapSDKExampleCustomViewArticleViewController.h"
 
 @interface RelapSDKExampleArticleListViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -117,9 +118,13 @@ static NSString* const kArticlePreviewCellIdentifier = @"kArticlePreviewCellIden
     
     NSDictionary* dict = self.articles[indexPath.row];
     
-    if (self.styleTag < 5) {
+    if (self.styleTag < 4) {
         RelapSDKExampleArticleViewController* vc = [[RelapSDKExampleArticleViewController alloc] initWithDict:dict];
         vc.styleTag = self.styleTag;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else {
+        RelapSDKExampleCustomViewArticleViewController* vc = [[RelapSDKExampleCustomViewArticleViewController alloc] initWithDict:dict];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

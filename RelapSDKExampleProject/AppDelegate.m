@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [RelapSDK setupWithApplicationID:@"RelapSDKExampleProject" userID:@"1"];
+    [RelapSDK setupWithApplicationID:@"RelapSDKExampleProjectCustom" userID:@"1"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     RelapSDKExampleSelectStyleViewController* vc = [RelapSDKExampleSelectStyleViewController new];
